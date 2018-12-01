@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: vizag
+  name: test1
   labels:
     country: india
 spec:
@@ -9,7 +9,7 @@ spec:
   - name: andhra
     image: nginx
     env:
-    - name: Mount
+    - name: Count
       value: This is a test
     - name: test
       value: success

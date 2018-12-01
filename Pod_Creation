@@ -8,5 +8,10 @@ spec:
   containers:
   - name: andhra
     image: nginx
+    env:
+    - name: Mount
+      value: This is a test
+    - name: test
+      value: success
     ports:
       - containerPort: 80

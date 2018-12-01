@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: Vizag
+  labels:
+    country: india
+spec:
+  containers:
+  - name: AP
+    image: nginx
+    ports:
+      - containerPort: 80
